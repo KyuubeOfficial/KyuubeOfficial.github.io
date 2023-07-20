@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/KyuubeOfficial.github.io/static/css/main.13197fcc.css",
+    "main.js": "/KyuubeOfficial.github.io/static/js/main.d53eb466.js",
+    "static/js/787.86850dd6.chunk.js": "/KyuubeOfficial.github.io/static/js/787.86850dd6.chunk.js",
+    "static/media/dnd-logo.png": "/KyuubeOfficial.github.io/static/media/dnd-logo.0c3806d58289dbc00b26.png",
+    "index.html": "/KyuubeOfficial.github.io/index.html",
+    "main.13197fcc.css.map": "/KyuubeOfficial.github.io/static/css/main.13197fcc.css.map",
+    "main.d53eb466.js.map": "/KyuubeOfficial.github.io/static/js/main.d53eb466.js.map",
+    "787.86850dd6.chunk.js.map": "/KyuubeOfficial.github.io/static/js/787.86850dd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13197fcc.css",
+    "static/js/main.d53eb466.js"
+  ]
+}
