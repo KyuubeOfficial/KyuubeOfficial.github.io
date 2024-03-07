@@ -72,9 +72,12 @@ function App() {
     //Funcao de dano
     if (action == "damage") {
       for (let enemy of updatedSelectedEnemies) {
-        if (parseInt(enemy.currHP) - parseInt(value) > 0) {
+        if (
+          parseInt(enemy.currHP) - parseInt(value) > 0 &&
+          parseInt(value) > 0
+        ) {
           enemy.currHP = parseInt(enemy.currHP) - parseInt(value);
-        } else {
+        } else if (parseInt(value) > 0) {
           enemy.currHP = 0;
         }
       }
@@ -83,9 +86,12 @@ function App() {
     else if (action === "heal") {
       for (let enemy of updatedSelectedEnemies) {
         let maxHp = parseInt(enemy.hp);
-        if (parseInt(value) + parseInt(enemy.currHP) < parseInt(enemy.hp)) {
+        if (
+          parseInt(value) + parseInt(enemy.currHP) < parseInt(enemy.hp) &&
+          parseInt(value) > 0
+        ) {
           enemy.currHP = parseInt(enemy.currHP) + parseInt(value);
-        } else {
+        } else if (parseInt(value) > 0) {
           enemy.currHP = maxHp;
         }
       }
