@@ -4,6 +4,9 @@
   left: 38vw;
   right: 38vw;
   bottom: 20vw;
+  min-width: 10rem;
+  min-height: 10rem;
+  max-height: 20rem;
   background-color: #2c3440;
   filter: drop-shadow(6px 6px 3px rgba(25, 25, 25, 0.374));
 }
@@ -14,6 +17,9 @@
   left: 38vw;
   right: 38vw;
   bottom: 20vw;
+  min-width: 10rem;
+  min-height: 10rem;
+  max-height: 20rem;
   background-color: #2c3440;
   filter: drop-shadow(6px 6px 3px rgba(25, 25, 25, 0.374));
 }
